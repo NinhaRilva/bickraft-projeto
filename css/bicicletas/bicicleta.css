@@ -1,79 +1,79 @@
 /*secão  escolha sua bicicleta*/
-.bicicleta-list{
+.bicicleta-lista{
 padding-top: 60px;
 
-
 }
-.titulo-bicicleta {
- margin: 60px;
-
+.bicicleta-lista h2 {
+ margin-bottom: 40px;
+ box-sizing: border-box;
+ max-width: 1200px;
+ padding: 0px 20px;
+ margin: 0px auto;
 }
 .bicicleta-lista ul{
   display:flex;
-   gap: 40px;
-   padding: 0 20px;
-    max-width: 1400px;
-   
-}
-.bicicleta-lista-item{
+  gap: 40px;
+  padding: 0 20px 20px 20px;
+  max-width: 1400px;
+  margin: 0px auto;
+  overflow-x: auto; /* criar um scrou só nesta parte*/
+ }
+.bicicleta-lista li{
+  flex:1;
+  min-width: 280px;
  font-weight: 600;
  font-family: 'Roboto';
   }
-.bicicleta-lista-h3{
+
+.bicicleta-lista h3{
  margin-top: 10px;
  margin-left: 20px;
- position: relative;
  margin-bottom: 8px;
- 
-}
-.bicicleta-lista-h3::before
-{  content: '';
+ position: relative;
+ }
+.bicicleta-lista h3::before
+{  content:'';
+  display: block;
   width: 12px;
   height: 8px;
   background-color: #FFBB00;
-  position: absolute;
-  bottom: 16px;
+  bottom: 20px;
   left: -20px;
+  position: absolute;
     
 }
-.bicicleta-lista-h3:hover::before{
-  width: 28px;
-  height: 8px;
-  background-color: #FFBB00;
-  transition: 0.3s;
- 
-}
-.bicicleta-lista-h3:hover{
+.bicicleta-lista a:hover h3::before{
+  width: 24px;
+ }
+.bicicleta-lista a :hover h3{
   padding: 0px 16px;
   transition: 0.3s;
+
 }
 
-.bicicleta-lista-item span{
+.bicicleta-lista li span{
  margin-left: 20px;
  color: #595959;
-  
-}
+  }
 .bicicleta-lista  img{
- border-radius: 4px;
- margin: auto; 
- 
-}
+  margin: auto; 
+ }
 @media(max-width:1000px)
 {
-  .bicicleta-lista-h3{
+  .bicicleta-lista h3{
     font-size: 1.5rem;
   } 
-  .bicicleta-lista-item span{
+  .bicicleta-lista span{
     font-size:1rem;
   }
 
 }
 @media(max-width:800px)
 {
-  .bicicleta-lista-h3{
+  .bicicleta-lista h3{
     font-size: 1.125rem;
   }
-  .bicicleta-lista-item span{
+  .bicicleta-lista span{
     font-size: 1rem;
   }
 }
@@ -87,10 +87,10 @@ padding-top: 60px;
     justify-content: center;
        
 }
-.bicicleta-lista-h3::before{
+.bicicleta-lista h3::before{
   bottom: 8px;
 }
-.bicicleta-lista-h3:hover::before{
+.bicicleta-lista h3:hover::before{
   width: 28px;
   height: 8px;
   background-color: #FFBB00;
@@ -98,3 +98,4 @@ padding-top: 60px;
  
 }
 }
+

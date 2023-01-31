@@ -31,8 +31,7 @@ background-color: #000;
  height: 100%;
  object-fit:cover ;
  margin-bottom: -120px;
- border-radius: 4px;
-  margin: auto; 
+   margin: auto; 
 }
 @media(max-width:1200px){
 .intro-titulo{
