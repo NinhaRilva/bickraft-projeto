@@ -23,7 +23,7 @@ a {
   text-decoration: none;
    color:inherit;
 }
-.tamannho-tela{
+*{
   box-sizing: border-box;
-  max-width: 1200px;
+  max-width: 1400px;
 }
