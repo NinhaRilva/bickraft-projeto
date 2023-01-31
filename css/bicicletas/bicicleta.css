@@ -1,0 +1,65 @@
+/*secão  escolha sua bicicleta*/
+.bicicleta-list{
+padding-top: 60px;
+
+
+}
+.titulo-bicicleta {
+ margin: 60px;
+
+}
+.bicicleta-lista ul{
+  display:flex;
+  gap: 40px;
+   padding: 0 20px;
+    max-width: 1400px;
+   
+}
+.bicicleta-lista-item{
+ font-weight: 600;
+ font-family: 'Roboto';
+
+ 
+  
+}
+.bicicleta-lista-h3{
+ margin-top: 10px;
+ margin-left: 20px;
+ position: relative;
+ margin-bottom: 8px;
+ 
+}
+.bicicleta-lista-h3::before
+{  content: '';
+  width: 12px;
+  height: 8px;
+  background-color: #FFBB00;
+  position: absolute;
+  bottom: 16px;
+  left: -20px;
+    
+}
+.bicicleta-lista-h3:hover::before{
+  width: 28px;
+  height: 8px;
+  background-color: #FFBB00;
+  transition: 0.3s;
+ 
+}
+.bicicleta-lista-h3:hover{
+  padding: 0px 16px;
+  transition: 0.3s;
+}
+
+.bicicleta-lista-item span{
+  margin-left: 20px;
+ color: #595959;
+  
+}
+.bicicleta-lista  img{
+ border-radius: 4px;
+ width:420px ;
+ height:520px ;
+ margin: auto; 
+ 
+}

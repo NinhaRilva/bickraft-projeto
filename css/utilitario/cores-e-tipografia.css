@@ -1,0 +1,32 @@
+:root{
+  --cor-b0: #fff;
+  --cor-p10:#000000;
+  -cor-c4:#BFBFBF;
+  --cor-c3:#F2F2F2;
+  --cor-c7:#595959
+ --cor-a1:#FFBB00;
+}
+ /*Tipografia*/
+.texto-grande{
+  font-size: 4rem;
+}
+.texto-medio{
+  font-size: 2rem;
+  font-family: 'Poppins','Ariel', sans-serif;
+  font-weight: 600;
+}
+.texto-pequeno{
+font-size: 1.5rem;
+line-height: 1.125;
+font-family: 'Poppins','Ariel', sans-serif;
+font-weight: 400;
+}
+
+.texto-pp{
+  font-size: 1.2rem;
+ /* line-height: 1.125;*/
+ font-family: 'Poppins','Ariel', sans-serif;
+ font-weight: 600;
+}
+
+

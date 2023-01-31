@@ -6,60 +6,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Bikcraft - Bicicletas Elétricas</title>
-  <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
+  <meta name="description"
+    content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/cabecalho.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
 
 </head>
 
 <body>
- <header class="header-bg">
-  <div class="header">
-  <a href="./"><img src="./img/bikcraft.svg" alt="Bikcraft"></a>
-   <nav aria-label="primaria">
-  <ul class="header-menu">
-    <li><a href="./bicicletas.html">Bicicletas</a></li>   
-    <li><a href="./seguros.html"> Seguros</a></li>
-    <li><a href="./contatos.html">Contato</a></li>
-  </ul>
-</nav>
-</div>
- </header>
- <main class="introducao-bg">
-   <div class="introducao">
-     <div class="introducao-conteudo">
-    <h1 class="intro-titulo">Bicicletas feitas <br> sob medida <Span>.</Span></h1>
-  <p class="intro-texto">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
-  <a href="./bicicletas.html">Escolha a sua</a>
-</div>
-<div class="intro-img">
-  <img class="img-introd" src="./img/fotos/introducao.jpg" alt="Biciclta-eletrica">
-</div>
-</div>
- </main>
- <section class="secao">
-   <h2 class="tituloSecao">Escolha  a sua </h2>
-   <div class="secao-conteudo">
-   <div class="conteudo-escolha">
-    <a href=""><img src="./img/bicicleta/nimbus1.jpg" alt=""></a>
-    <a href=""><p  class="conteudo-escolha-titulo">Nimbus Stark</p></a> 
-    <a href=""><p class="conteudo-preco">R$ 4999</p></a> 
-  </div>
-  <div  class="conteudo-escolha">
-    <a href=""><img src="./img/bicicleta/nimbus2.jpg" alt=""></a>
-    <a href=""><p class="conteudo-escolha-titulo">Magic Might</p></a>
-   <a href=""><p class="conteudo-preco">R$ 2999</p></a> 
-  </div>
-  <div class="conteudo-escolha">
-  <a href=""><img src="./img/bicicleta/nimbus3.jpg" alt=""></a>
-   <a href=""><p class="conteudo-escolha-titulo">Nebula Cosmic</p></a> 
-   <a href=""><p class="conteudo-preco">R$ 1999</p></a> 
-  </div>
-  </div>
- </section>
+  <header class="header-bg">
+    <div class="header tamannho-tela">
+      <a href="./"><img src="./img/bikcraft.svg" alt="Bikcraft"></a>
+      <nav aria-label="primaria ">
+        <ul class="header-menu texto-pp ">
+          <li><a href="./bicicletas.html">Bicicletas</a></li>
+          <li><a href="./seguros.html"> Seguros</a></li>
+          <li><a href="./contatos.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="introducao-bg">
+    <div class="introducao tamannho-tela">
+      <div class="introducao-conteudo">
+        <h1 class="intro-titulo texto-grande --cor-b0 ">Bicicletas feitas <br> sob
+          medida <Span class="detalhe">.</Span></h1>
+        <p class="intro-texto texto-pequeno">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para
+          você. Explore o
+          mundo na sua velocidade com a Bikcraft.</p>
+        <a href="./bicicletas.html" class="botao texto-medio">Escolha a sua</a>
+      </div>
+      <div class="intro-img">
+        <img class="img-introd" src="./img/fotos/introducao.jpg" alt="Biciclta-eletrica">
+      </div>
+    </div>
+  </main>
+  <article class="bicicleta-lista">
+      <h2 class="titulo-bicicleta texto-grande">escolha a sua <span class="detalhe">.</span></h2>
+    <ul>
+      <a href=""> 
+        <li class="bicicleta-lista-item">
+          <img src="./img/bicicleta/nimbus1.jpg" alt="">
+          <h3 class="bicicleta-lista-h3 texto-medio">Nimbus Stark</h3>
+          <span>4999</span>
+        </li>
+      </a>
+      <a href="">
+      <li class="bicicleta-lista-item ">
+        <img src="./img/bicicleta/nimbus2.jpg" alt="">
+        <h3 class="bicicleta-lista-h3  texto-medio">Magic Might</h3>
+        <span>R$ 2999</span>
+      </li>
+    </a>
+    <a href="">
+      <li class="bicicleta-lista-item">
+        <img src="./img/bicicleta/nimbus3.jpg" alt="">
+        <h3 class="bicicleta-lista-h3  texto-medio">Nebula Cosmic</h3>
+        <span>R$ 1999</span>
+      </li>
+    </a>
+    </ul>
+  
+</article>
 </body>
 
 </html>
