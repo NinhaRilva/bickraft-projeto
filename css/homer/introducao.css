@@ -1,7 +1,6 @@
 
 .introducao-bg{
-background-color: #000;
- color: #fff;
+  background-color:var(--cor-c12);
  box-shadow: inset 0 -80px #fff;
  
 }
@@ -10,7 +9,7 @@ background-color: #000;
  grid-template-columns: 1fr 1fr;
  gap:  0px 40px;
  padding: 0px 20px;
- margin: 0px auto;
+
 
 }
 .introducao-conteudo{
@@ -26,13 +25,13 @@ background-color: #000;
   margin-bottom: 32px; 
  
  }
-.img-introd
-{ 
+.img-introd{ 
  height: 100%;
  object-fit:cover ;
  margin-bottom: -120px;
    margin: auto; 
 }
+
 @media(max-width:1200px){
 .intro-titulo{
  font-size: 3rem;

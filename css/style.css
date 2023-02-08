@@ -3,11 +3,18 @@
 @import "./global/cabecalho.css";
 @import "./global/global.css";
 @import "./global/rodape.css";
+
 /* homer pagina inicial*/
 @import "./homer/introducao.css";
 @import "./bicicletas/bicicleta.css";
+@import "./homer/tecnologia.css";
+@import "./homer/parceiros.css";
+@import "./homer/declaracao.css";
+@import "./homer/seguro.css";
  
 
 /* Utilidaes padrão para todo site */
 @import "./utilitario/componetes.css";
+@import "./utilitario/cores.css";
+@import "./utilitario/tipografia.css";
 
