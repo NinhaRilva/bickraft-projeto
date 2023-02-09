@@ -32,7 +32,6 @@ gap: 40px;
   }
    .redes-sociais{
      display: flex;
-     grid-column: 2;
      gap: 20px;
      padding-bottom: 20px;
      max-width: 50px;
@@ -42,11 +41,43 @@ gap: 40px;
      .grid-rodape-col3{
    display: block;
    padding: 0px;
-   max-width: 15ch;
-   justify-content: flex-start;
+   font-size: 1.5rem;
+   box-sizing: border-box;
+  text-align: left;
     }
     .redes-sociais{
      padding-bottom: 30px 
-     }
+     } .rodape-p{
+      font-size: 1rem;
+    }
+    .rodape-p{
+       text-align: center;
+    }
+ .radape-logo{
+  margin:0px auto;
+  padding: 60px 0px;
+
+ }
+}
+@media(max-width:500px){
+  .rodape{
+    padding: 20px;
+  
+ }
+  .grid-rodape-col3{
+ font-size: 1.4rem;
+ }
+ .rodape-p{
+  font-size: 0.9rem;
+}
+}
+
+@media(max-width:300px){
  
+  .grid-rodape-col3{
+ font-size: 1.25rem;
+ }
+.rodape-p{
+  font-size: 0.6rem;
+}
 }
