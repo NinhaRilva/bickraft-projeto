@@ -77,10 +77,9 @@
      grid-template-columns: 1fr;
      gap:40px ;
   }
-
   .seguro,
   .seguro-conteudo{
- width: 350px;
+    width: 250px;
   }
   .grid-col2 h2{
     text-align:center; 
