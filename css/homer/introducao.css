@@ -41,12 +41,14 @@
 }
 @media(max-width:800px){
  .intro-titulo{
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 3rem;
+  margin-bottom: 20px;
     }
-   }
-   @media(max-width:700px){
-   .introducao {
+    .introducao-conteudo{
+max-width: 800px;
+
+    }
+    .introducao {
     display: grid;
     grid-template-columns: 1fr;
              }
@@ -56,6 +58,6 @@
      }
     .intro-img{
      padding: 0px;
-     max-width: 100%;
+     max-width: 800px;
      }
      }

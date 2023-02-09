@@ -68,7 +68,6 @@ font-weight: 700;
 
   @media(max-width:800px)
 {
-
     .depoimento {
        grid-template-columns: 
        1fr;  
@@ -90,6 +89,10 @@ font-weight: 700;
     align-items: center;
      margin: auto;
      box-sizing: border-box;
+
+  }
+  .depoimento{
+     max-width: 500px;
 
   }
   }

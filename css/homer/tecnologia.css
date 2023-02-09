@@ -91,7 +91,11 @@
 .tecnologia-img{
   display: none;
 }
+.tecnologia-grid{
+   max-width: 500px;
 }
+}
+
 @media(max-width:600px){
   .tecnologia-item{
 flex-direction: column;
