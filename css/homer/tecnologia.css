@@ -3,13 +3,12 @@
   color: var(--cor-c0);
   box-shadow: inset 0 80px #fff, 
   inset 0 -80px #fff; 
-   
- }
+    }
  .tecnologia-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap:40px;
-    
+   
  } /* manter a imagem sempre do mesmo tamanho*/
  .tecnologia-img img{
   height: 100%;

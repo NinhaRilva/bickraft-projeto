@@ -4,6 +4,12 @@
   font-weight: 600;
    line-height:4,5;
 } 
+.font-1-exg-1{
+  font-family:'Poppins', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+   line-height:4,5;
+} 
   .font-1-exg{
     font-family:'Poppins', sans-serif;
     font-size: 2rem;
