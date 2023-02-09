@@ -71,17 +71,30 @@
 
 @media(max-width:800px){
   .grid-col2{
-     grid-template-columns: 1fr;
-     gap:40px ;
-      margin: 0 auto;
-       padding: 0px;
+    grid-template-columns: 1fr;
+    gap:40px ;
+    margin: 0 auto;
+    padding: 0px;
   }
   .grid-col2 h2{
     text-align:center; 
-     padding-top: 60px;
-      font-size: 3rem;
- 
-  }
+    padding-top: 60px;
+    font-size: 3rem;
+   }
 }
-
+@media(max-width:500px){
+  .grid-col2{
+    padding: 60px 0px;
+    font-size: 1.2rem;
+   
+   }
+   .seguro span,
+    .seguro-conteudo span{
+    text-align:left;
+    padding-left: -30px;
+     
+       
+      }
+}
+ 
  

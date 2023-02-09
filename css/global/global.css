@@ -2,7 +2,6 @@
 html, body{
     overflow-x: hidden !important; 
 }
-
 body {
   margin: 0px;
   padding: 0px;
@@ -11,7 +10,6 @@ body {
   box-sizing: border-box;
   background-color: #fff;
   margin: 0 auto;
-
 }
  img{
   max-width: 100%;
@@ -29,7 +27,6 @@ ul {
   padding: 0px;
   list-style: none;
 }
-
 a {
   text-decoration: none;
    color:inherit;
@@ -44,5 +41,4 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0px auto;
-
 }

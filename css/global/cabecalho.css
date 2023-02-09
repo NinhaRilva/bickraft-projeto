@@ -36,9 +36,7 @@
 @media(max-width:800px) {
   .header-bg {
      justify-content: center;
-      background-color: aqua;
-    
-  }
+        }
   .header-menu {
     gap: 20px;
     padding: 20px;
@@ -58,7 +56,6 @@
 @media(max-width:600px) {
   .header-bg {
    justify-content: center;
-    background-color: red;
 }
   .header-menu {
     gap: 12px;
@@ -70,7 +67,6 @@
 }
 @media(max-width:500px){
 .header {
-background-color: chocolate;
 padding: 20px 100px;
  justify-content: center;
 }

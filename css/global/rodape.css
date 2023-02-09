@@ -28,7 +28,7 @@ gap: 40px;
      display: block;
       }
   .grid-rodape-col3 a:hover{
-     color:#ffff;
+     color:var(--cor-c0);
   }
    .redes-sociais{
      display: flex;
