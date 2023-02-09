@@ -1,15 +1,14 @@
 .rodape{
   background-color: var(--cor-c12);
   padding: 60px;
-   box-sizing: border-box;
-
-}
+ }
 .grid-rodape-col3{
   display: grid;
   grid-template-columns: 3fr 5fr 4fr;
 gap: 40px;
  padding-left: 60px;
-
+ box-sizing: border-box;
+  margin: 0px auto;
  }
  .rodape-p{
  grid-column: 1/-1;
@@ -20,38 +19,34 @@ gap: 40px;
  .informacoes a ,
 .lista-contatos li{
    padding-bottom: 20px;
-    
+   
 }
  .rodape-conteudo h2{
    padding-bottom: 32px;
-
  }
   .informacoes a{
      display: block;
-     
-  }
+      }
   .grid-rodape-col3 a:hover{
      color:#ffff;
   }
    .redes-sociais{
      display: flex;
      grid-column: 2;
-    gap: 20px;
-   padding-bottom: 20px;
-    max-width: 50px;
-    height: 50px;
-     
-   }
-
+     gap: 20px;
+     padding-bottom: 20px;
+     max-width: 50px;
+     height: 50px;
+        }
    @media(max-width:800px){
-       .grid-rodape-col3{
-   display: block;
-   }
-    .redes-sociais{
-      padding-bottom: 30px 
-     
-    }
      .grid-rodape-col3{
- width: 400px;
+   display: block;
+   padding: 0px;
+   max-width: 15ch;
+   justify-content: flex-start;
+    }
+    .redes-sociais{
+     padding-bottom: 30px 
      }
+ 
 }

@@ -22,6 +22,12 @@
     font-weight: 400;
      line-height:2,25;
   }
+  .font-2-exg{
+    font-family:'Roboto', sans-serif;
+    font-size:1.8rem;
+    font-weight: 00;
+     line-height:2,25;
+  }
 
   .font-2-g{
     font-family:'Roboto', sans-serif;

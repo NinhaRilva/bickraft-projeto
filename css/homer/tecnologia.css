@@ -71,6 +71,12 @@
    .tecnologia-item p{
   color:#BFBFBF
    }
+   @media(max-width:950px){
+    .tecnologia-conteudo h2{
+      font-size:3rem ;
+     }
+
+   }
 @media(max-width:800px){
   .tecnologia-bg{
     box-shadow: none;
@@ -78,9 +84,6 @@
  .tecnologia-grid{
     grid-template-columns: 1fr;
   }
-  .tecnologia-conteudo h2{
-    font-size:3rem ;
-   }
  .tecnologia-conteudo p{
   font-size:1.5rem ;
  }
@@ -104,3 +107,13 @@ flex-direction: column;
  }
 
 }
+@media(max-width:450px){
+  .tecnologia-conteudo h2{
+    font-size:2.5rem ;
+   }
+  }
+  @media(max-width:350px){
+    .tecnologia-conteudo h2{
+      font-size:1.8rem ;
+     }
+    }
