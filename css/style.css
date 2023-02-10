@@ -18,3 +18,7 @@
 @import "./utilitario/cores.css";
 @import "./utilitario/tipografia.css";
 
+/*internos*/
+
+@import "./pag-interna/termos-condicoes.css"
+
