@@ -12,7 +12,6 @@
   font-family: 'Poppins','Ariel', sans- 
   serif; 
   max-width: max-content;
-
  }
   .botao-primario{
     background: linear-gradient( #F2A60C ,  #FFBF00);
@@ -22,7 +21,15 @@
   background: var(--cor-c10);
   color: var(--cor-c4);
 
-
+ }
+ .seta-bt{
+ display: flex;
+  align-items: center;
+ }
+ .seta-bt::after{
+   content:url('../../img/icones/seta.svg');
+   display: inline-block;
+     margin-left: 12px;
  }
  .botao-primario:hover{
    background:linear-gradient(#FFB70f, #E4A100) ;
@@ -33,5 +40,11 @@
  .botao-secundario:hover{ 
    background-color:#404040;
  }
- 
-/**/
+
+
+/* pagina interna*/
+
+ .main-bg{
+  background-color: var(--cor-c11);
+  padding:60px 0px 60px 20px;
+   }

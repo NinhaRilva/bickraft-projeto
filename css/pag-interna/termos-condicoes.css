@@ -1,7 +1,4 @@
-.termos-bg{
-   background-color: var(--cor-c11);
-       padding:60px 0px 60px 20px;
-    }
+
      .termos-p{
     text-transform: uppercase;
     padding: 0px;
@@ -16,20 +13,20 @@
        }
   @media(max-width:800px){
   .termo_conteudo h1{
-  font-size: 3rem
+   font-size: 3rem
    }
    .termos-p{
   font-size:1.5rem;
-text-transform:inherit;
-padding-bottom: 10px;
+  text-transform:inherit;
+  padding-bottom: 10px;
    }
   }
   @media(max-width:400px){
     .termo_conteudo h1{
-    font-size: 2.5rem
+     font-size: 2.5rem
    }
    .termos-p{
-  padding-bottom: 20px;
+    padding-bottom: 20px;
   }
 }
   

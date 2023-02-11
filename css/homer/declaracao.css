@@ -1,8 +1,6 @@
 .depoimento-bg{
   background-color:var(--cor-p1);
     box-sizing: border-box;
-
-
 }
  .depoimento{
 display: grid;

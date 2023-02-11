@@ -20,5 +20,5 @@
 
 /*internos*/
 
-@import "./pag-interna/termos-condicoes.css"
-
+@import "./pag-interna/termos-condicoes.css";
+@import "./pag-interna/bik-paginas.css"
