@@ -1,10 +1,14 @@
 .seguro-vantagens{
-  background-color: var(--cor-c12);
+  background: var(--cor-c12)url("../../img/dec/bottom-right.svg") no-repeat bottom 50px right 50px ;
+  display: flex; 
+ justify-content: center;
 }
 .vantagens{
   padding-top: 120px;
    padding-bottom: 120px;
    margin:0px 120px;
+   
+    
    
 }
 .vantagens h2{

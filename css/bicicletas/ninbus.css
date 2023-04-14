@@ -1,9 +1,14 @@
+.conteudo-bic{
+
+}
 .gri-col2{
   display: grid;
   gap:40px;
   grid-template-columns: 1fr 1fr  ;
   align-items: start;
-  padding: 60px 0px;
+  margin: 0px auto;
+  padding: 40px;
+
 }
 
 .containe{
@@ -28,9 +33,12 @@
 .bicicleta-img img:first-child{
  min-width: 100%;
  }
+
   .conteudo{
-    grid-column: 3/-1;
+    background: url("../../img/dec/top-right.svg") no-repeat top 20px right 50px;
+   grid-column: 3/-1;
   }
+
   .comprar{
     display: grid;
     gap: 8px 12px;
@@ -137,6 +145,27 @@ grid-row: span 2; /* neste caso epandi toda a tela ja que o coluna esta divida e
      margin: 30px 0px;
     padding-bottom: 80px;
     } 
+
+
+  @media(min-width: 1200px){
+    .bicicleta-img img {
+   width: 300px;
+     justify-content: space-between;
+
+ }
+    .conteudo-bicicleta{
+      width: 700px;
+   
+    }
+    
+.gri-col2{
+display: flex;
+align-content: center;
+justify-content:center ;
+  
+}
+    }  
+
  @media(max-width: 800px){
 
   .gri-col2{

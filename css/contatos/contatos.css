@@ -1,11 +1,14 @@
 #contatos{
   background: linear-gradient(var(--cor-c11)700px,
-  var(--cor-c1)0px) 
+  var(--cor-c1)0px) ;
+  max-width: 1200px;
 }
 .contato{
   display: grid;
   grid-template-columns: 5fr 7fr;
   padding: 60px;
+   justify-content: center;
+ 
  }
 .contato-formulario,
  .contato-dados{
