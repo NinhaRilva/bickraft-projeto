@@ -1,0 +1,43 @@
+.seguro-vantagens{
+  background-color: var(--cor-c12);
+}
+.vantagens{
+  padding-top: 120px;
+   padding-bottom: 120px;
+   margin:0px 120px;
+   
+}
+.vantagens h2{
+padding-bottom: 40px;
+}
+.vantagens img{
+ padding-bottom: 10px;
+}
+
+.lista-vantagens{
+   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+ gap: 40px 80px;
+  
+}
+
+@media(max-width:900px){
+  .vantagens h2{
+    font-size: 3rem;
+      }
+}
+@media(max-width:600px){
+  .vantagens h2{
+    font-size: 1.8rem;
+
+  }
+   .vantagens{
+    margin-left: 60px
+   }
+}
+@media(max-width:430px){
+  .vantagens h2{
+    font-size: 1.2rem;
+
+  
+  }}

@@ -25,13 +25,13 @@
   .font-1-g{
     font-family:'Poppins', sans-serif;
     font-size: 1,5rem;
-    font-weight: 400;
+    font-weight: 600;
      line-height:2,25;
   }
   .font-2-exg{
     font-family:'Roboto', sans-serif;
     font-size:1.8rem;
-    font-weight: 00;
+    font-weight: 500;
      line-height:2,25;
   }
 
@@ -67,6 +67,12 @@
     font-family:'Roboto', sans-serif;
     font-size: 1,125rem;
     font-weight: 500;
+     line-height:1,5;
+  }
+  .font-2-m-sn{
+    font-family:'Roboto', sans-serif;
+    font-size: 1,125rem;
+    font-weight: 400;
      line-height:1,5;
   }
   .font-1-p{

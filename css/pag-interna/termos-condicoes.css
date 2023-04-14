@@ -12,7 +12,7 @@
     padding-top: 40px;
        }
   @media(max-width:800px){
-  .termo_conteudo h1{
+  .conteudo h1{
    font-size: 3rem
    }
    .termos-p{
@@ -22,7 +22,7 @@
    }
   }
   @media(max-width:400px){
-    .termo_conteudo h1{
+    .conteudo h1{
      font-size: 2.5rem
    }
    .termos-p{

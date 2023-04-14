@@ -1,5 +1,5 @@
- .seguro-bg{
-  background-color: var(--cor-c10-1);
+ .seguros-bg{
+  background-color: var(--cor-c11);
   color: var(--cor-c0);
    padding-bottom: 60px;
    box-sizing: border-box;
@@ -8,8 +8,8 @@
  margin: 0px 60px;
  }
  .grid-col2,
-.seguro-conteudo,
- .seguro{
+.seguros-conteudo,
+ .seguros{
   padding:40px;
   display: grid;
   grid-template-columns:repeat(2,1fr);
@@ -20,49 +20,49 @@
  box-sizing: border-box;
  margin: 0 auto;
   }
- .seguro-conteudo {
+ .seguros-conteudo {
    grid-column: 1/-1;
      }
-  .seguro,
-  .seguro-conteudo{
+  .seguros,
+  .seguros-conteudo{
     padding:32px 32px 32px 60px;
     background-color:var(--cor-c12);
     width: 400px;
   }  
-      .seguro-conteudo{
+      .seguros-conteudo{
     grid-column: 1/2;
     margin: 0 auto;
   }
-  .seguro-list{
+  .seguros-list{
     display: grid;
     grid-template-columns:1fr auto;
   }
-   .seguro-lista li{
+   .seguros-lista li{
      padding: 10px;
    }
-  .seguro-conteudo h3,
-  .seguro h3{
+  .seguros-conteudo h3,
+  .seguros h3{
    font-size: 2rem;
    text-transform: uppercase;
       }
-  .seguro-conteudo h3{
+  .seguros-conteudo h3{
    color:var(--cor-c6);
   }
-.seguro h3{
+.seguros h3{
  color: var(--cor-p1);
 }
 .preco{
    display: block;
    text-align: end;
   }
- .seguro a,
- .seguro-conteudo a{
+ .seguros a,
+ .seguros-conteudo a{
   grid-column: 1/-1;
  }
- .seguro-lista li{
-    list-style-image:url('/img/icones/Vector\ 4.svg');
+ .seguros-lista li{
+    list-style-image:url('../../img/icones/Vector\ 4.svg');
  }
- .seguro-lista  {
+ .seguros-lista  {
   grid-column: 1/-1;
  }
 
@@ -71,7 +71,7 @@
     grid-template-columns: 1fr;
     gap:40px ;
     margin: 0 auto;
-    padding: 0px;
+    padding-top: 40px;
   }
   .grid-col2 h2{
     text-align:center; 
@@ -84,8 +84,8 @@
     padding: 60px 0px;
     font-size: 1.2rem;
       }
-   .seguro span,
-    .seguro-conteudo span{
+   .seguros span,
+    .seguros-conteudo span{
     text-align:left;
     padding-left: -30px;
             

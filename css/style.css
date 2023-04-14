@@ -6,19 +6,35 @@
 
 /* homer pagina inicial*/
 @import "./homer/introducao.css";
-@import "./bicicletas/bicicleta.css";
 @import "./homer/tecnologia.css";
 @import "./homer/parceiros.css";
 @import "./homer/declaracao.css";
 @import "./homer/seguro.css";
  
+/*/bicilceta*/
+@import "./bicicletas/bicicleta.css";
+@import "./bicicletas/bik-paginas.css";
+@import"../css/bicicletas/ninbus.css";
 
 /* Utilidaes padrão para todo site */
 @import "./utilitario/componetes.css";
 @import "./utilitario/cores.css";
 @import "./utilitario/tipografia.css";
-
-/*internos*/
-
+@import"./utilitario/formularios.css"; 
+ 
+ /*internos*/
 @import "./pag-interna/termos-condicoes.css";
-@import "./pag-interna/bik-paginas.css"
+
+/*Seguros*/ 
+@import"./seguros/pagina-seguros.css";
+@import "./seguros/pegurtas.css";
+
+/* contatos*/
+@import"./contatos/contatos.css";
+@import"./contatos/lojas.css";
+
+ /* Formularios*/
+ @import"./utilitario/formularios.css";
+
+  /* Orçamento*/
+  @import"./orcamento/orcamento.css";

@@ -1,0 +1,182 @@
+.gri-col2{
+  display: grid;
+  gap:40px;
+  grid-template-columns: 1fr 1fr  ;
+  align-items: start;
+  padding: 60px 0px;
+}
+
+.containe{
+  display: grid;
+  gap:40px;
+  grid-template-columns: 1fr 1fr  ;
+
+}
+.bicicleta-img{
+  display: flex;
+  gap:20px;
+ flex-wrap:  wrap;
+ 
+}
+.conteudo-biciclet p{
+  margin-bottom: 32px;
+}
+.bicicleta-img img{
+  flex: 1;
+  min-width: 200px;
+}
+.bicicleta-img img:first-child{
+ min-width: 100%;
+ }
+  .conteudo{
+    grid-column: 3/-1;
+  }
+  .comprar{
+    display: grid;
+    gap: 8px 12px;
+    grid-template-columns: max-content auto;
+    align-items: center;
+     justify-content: start;
+    padding-top: 40px;
+}
+.comprar a{
+grid-row: span 2; /* neste caso epandi toda a tela ja que o coluna esta divida em 2 se fosse mais era só dizer quando da tela vc que expandi */
+}
+.comprar span{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  background-color: var(--cor-c12);
+  padding: 4px 8px;
+  border-radius: 4px;
+ }
+  
+ .list1 li{
+ background-color: var(--cor-c12);
+ margin-top: 10px;
+  }
+  .inf{
+    grid-column: 3/-1;
+  }
+  .informacao ul{
+    display: grid;
+    gap: 28px;
+    grid-template-columns: 1fr 1fr;
+    background: var(--cor-c12);
+    padding: 40px;
+
+  }
+ 
+.titulo{
+   padding-top: 40px; 
+  text-transform: uppercase;
+  
+}
+  .fichaTec{
+    grid-column: 3/-1;
+    background: var(--cor-c12);
+    padding: 40px;
+    margin-top: 24px; 
+
+  } 
+  .fichaTec li{ 
+    padding: 8px 0px  ;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--cor-c11);
+  }
+.fichaTec li:last-child{
+    border-bottom: none;
+  }
+  .fichaTec span{
+     color: var(--cor-c6)
+  }
+ .btn-ninbus{text-align: center;
+  }
+  /*  seguro */
+ 
+ .seguro-bg{
+    background-color:var(--cor-c11);
+    color: var(--cor-c0);
+    box-shadow: inset 0 80px #fff, 
+    inset 0 -80px #000; 
+      }
+   .seguro-grid{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    gap:40px;
+     align-items: center;
+  
+     
+   } /* manter a imagem sempre do mesmo tamanho*/
+   .seguro-img img{
+     grid-column: 2;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /*ajusta no conteudo*/
+    object-position: left; /*cortar a img a direta*/
+  }
+
+  .seguro-conteudo{
+   padding-top: 180px; 
+    padding-bottom:180px; 
+   
+  }
+  .seguro-conteudo > span{ 
+   padding-top: 40px;
+  text-transform: uppercase;
+  color: #BFBFBF;
+   margin-bottom: -20px;
+  }
+   
+  .tecnologia-conteudo > p{
+     color: #BFBFBF;
+     padding-bottom:  20px;
+  }
+   .tecnologia-conteudo > a{
+     margin: 30px 0px;
+    padding-bottom: 80px;
+    } 
+ @media(max-width: 800px){
+
+  .gri-col2{
+    grid-template-columns: 1fr;
+    padding-top: 30px;
+    } 
+    .bicicleta-img img{
+    grid-row: 1;
+    }
+    .seguro-grid{
+      grid-template-columns: 1fr;
+  }
+  .seguro-conteudo{
+    padding: 0px 32px;
+
+  }
+  .seguro-bg{
+    box-shadow:inset 0 -80px var(--cor-c11); 
+  }
+  
+}
+  @media(max-width: 470px){
+    .comprar {
+   grid-template-columns: 1fr;
+   }
+    .comprar a{
+    align-items: center;
+    margin: 20px auto;
+    }
+    .comprar span{
+      max-width: 400px;
+      justify-self: center ;
+    }
+  }
+  
+  @media(max-width: 300px){
+    .compra a {
+       font-size: 1rem ;
+    }
+    
+  }
+
+  

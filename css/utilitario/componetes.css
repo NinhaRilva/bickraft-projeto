@@ -12,6 +12,8 @@
   font-family: 'Poppins','Ariel', sans- 
   serif; 
   max-width: max-content;
+   border: none;
+    cursor: pointer; /* Mostra a mão indicando que  é clicavel*/
  }
   .botao-primario{
     background: linear-gradient( #F2A60C ,  #FFBF00);
