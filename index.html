@@ -8,7 +8,10 @@
       name="description"
       content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft."
     />
+
+    <link rel="preload" href="./css/style.css" as="style" />
     <link rel="stylesheet" href="./css/style.css" />
+
     <link rel="stylesheet" href="./css/cabecalho.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -45,13 +48,19 @@
             >Selcione a sua</a
           >
         </div>
-        <div class="intro-img">
+        <picture class="intro-img">
+          <source
+            media="(max-width:800px)"
+            srcset="./img/bicicleta/nimbus1.jpg"
+          />
           <img
             class="img-introd"
             src="./img/fotos/introducao.jpg"
             alt="Biciclta-eletrica"
+            width="1280"
+            height="1600"
           />
-        </div>
+        </picture>
       </div>
     </main>
     <article class="bicicleta-lista">
@@ -68,14 +77,24 @@
         </a>
         <a href="">
           <li>
-            <img src="./img/bicicleta/bicicleta2.png" alt="" />
+            <img
+              src="./img/bicicleta/bicicleta2.png"
+              width="420"
+              height="520"
+              alt=""
+            />
             <h3 class="font-1-exg">Magic Might</h3>
             <span>R$ 2499</span>
           </li>
         </a>
         <a href="">
           <li>
-            <img src="./img/bicicleta/bicicleta3.png" alt="" />
+            <img
+              src="./img/bicicleta/bicicleta3.png"
+              width="420"
+              height="520"
+              alt=""
+            />
             <h3 class="bicicleta-lista-h3 font-1-exg">Nebula Cosmic</h3>
             <span>R$ 1999</span>
           </li>
@@ -99,7 +118,12 @@
           <a class="font-2-g botao-link" href="">Escolha seu modelo</a>
           <div class="tecnologia-item">
             <div>
-              <img src="./img/icones/eletrica.svg" alt="" />
+              <img
+                src="./img/icones/eletrica.svg"
+                width="24"
+                height="24"
+                alt=""
+              />
               <h3 class="cor-c0">Motor Elétrico</h3>
               <p class="tecnologia-p">
                 Toda Bikcraft é equipada com um motor elétrico que possui
@@ -108,7 +132,12 @@
               </p>
             </div>
             <div>
-              <img src="./img/icones/rastreador.svg" alt="" />
+              <img
+                src="./img/icones/rastreador.svg"
+                width="24"
+                height="24"
+                alt=""
+              />
               <h3 class="cor-c0">Rastreador</h3>
               <p class="tecnologia-p">
                 Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos
@@ -118,21 +147,72 @@
           </div>
         </div>
         <div class="tecnologia-img">
-          <img src="./img/fotos/tecnologia.jpg" alt="" />
+          <img
+            src="./img/fotos/tecnologia.jpg"
+            width="1200"
+            height="1920"
+            alt=""
+          />
         </div>
       </div>
     </article>
     <section class="parceiros tamannho-tela" aria-label="Nossos parceiros">
       <h2 class="font-1-exgg">nossos parceiros<span class="cor-p1">.</span></h2>
       <ul>
-        <li><img src="./img/parceiros/caravan.svg" alt="" /></li>
-        <li><img src="./img/parceiros/ranek.svg" alt="" /></li>
-        <li><img src="./img/parceiros/handel.svg" alt="" /></li>
-        <li><img src="./img/parceiros/lescone.svg" alt="" /></li>
-        <li><img src="./img/parceiros/flexblog.svg" alt="" /></li>
-        <li><img src="./img/parceiros/wildbeast.svg" alt="" /></li>
-        <li><img src="./img/parceiros/dogs.svg" alt="" /></li>
-        <li><img src="./img/parceiros/surfbot.svg" alt="" /></li>
+        <li>
+          <img
+            src="./img/parceiros/caravan.svg"
+            width="140"
+            height="38"
+            alt=""
+          />
+        </li>
+        <li>
+          <img src="./img/parceiros/ranek.svg" width="149" height="36" alt="" />
+        </li>
+        <li>
+          <img
+            src="./img/parceiros/handel.svg"
+            width="139"
+            height="50"
+            alt=""
+          />
+        </li>
+        <li>
+          <img
+            src="./img/parceiros/lescone.svg"
+            width="208"
+            height="41"
+            alt=""
+          />
+        </li>
+        <li>
+          <img
+            src="./img/parceiros/flexblog.svg"
+            width="165"
+            height="38"
+            alt=""
+          />
+        </li>
+        <li>
+          <img
+            src="./img/parceiros/wildbeast.svg"
+            width="196"
+            height="34"
+            alt=""
+          />
+        </li>
+        <li>
+          <img src="./img/parceiros/dogs.svg" width="152" height="39" alt="" />
+        </li>
+        <li>
+          <img
+            src="./img/parceiros/surfbot.svg"
+            width="200"
+            height="49"
+            alt=""
+          />
+        </li>
       </ul>
     </section>
     <section class="depoimento-bg" aria-label="Depoimento">
@@ -190,7 +270,13 @@
     </article>
     <footer class="rodape">
       <div class="grid-rodape-col3 tamannho-tela rodape-conteudo">
-        <img src="./img/bikcraft.svg" alt=" logo" class="radape-logo" />
+        <img
+          src="./img/bikcraft.svg"
+          width="136"
+          height="32"
+          alt=" logo"
+          class="radape-logo"
+        />
         <div class="contatos">
           <h2 class="cor-c0 font-2-g-n">Contato</h2>
           <ul class="lista-contatos cor-c5 font-1-m">
