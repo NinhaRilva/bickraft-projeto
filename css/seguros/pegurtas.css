@@ -6,7 +6,7 @@
 
 }
 
-.lista-perguntas dd{
+.perguntas dd{
  max-width: 80ch;
  margin: 0px;
 padding-bottom: 24px;
@@ -14,31 +14,34 @@ padding-bottom: 24px;
  
 } 
 
-.lista-perguntas div{
+.perguntas div{
   padding: 20px;
 }
-.lista-perguntas div:nth-child(odd){
+.perguntas div:nth-child(odd){
   background-color: var(--cor-c1);
   border-radius:4px ;
 }
-.lista-perguntas dt{
+.perguntas button{
   display: grid;
    grid-template-columns: auto 1fr auto ;
    align-items: center;
    gap: 20px;
    cursor: pointer;
+   border: none;
+   width: 100%;
+    background: none;
+    text-align: start;
+
 
 }
-.lista-perguntas dt::before{
+.perguntas button::before{
   content: '';
   display: inline-table;
   height: 8px;
   width: 12px;
   background-color: var(--cor-p1);
-
-
 }
-.lista-perguntas dt::after{
+.perguntas button::after{
   content: '';
   display: inline-table;
   height: 6px;
@@ -46,8 +49,19 @@ padding-bottom: 24px;
   background-image: url("../../img/icones/seta-abrir.svg");
   margin-right: 10px;
 }
-.lista-perguntas dd{
+.perguntas button:hover::after,
+  .perguntas button[aria-expanded="true"]::after {
+     transform: rotate(180deg);
+  }     
+.perguntas dd{
   padding-top: 12px;
   padding-left: 34px;
 max-width: 80ch;
 }
+.perguntas dd{
+  display: none;
+}
+ .perguntas dd.ativo{
+  display: block;
+ }
+  

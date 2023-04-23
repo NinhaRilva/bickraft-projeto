@@ -124,11 +124,10 @@
   box-shadow: inset 0 0 0 3px var(--cor-c0), inset 0 0 0 6px var(--cor-c6);
 }
  /* deixar o conteudo invisivel */
+ 
   .orcamento-conteudo{
     background-color: var(--cor-c12);
-
-
-     color:white ;
+    color:white ;
      display: none;
   }
   /* Usando checked*/ /* o til (~)vai tenta procura o 1 elemento que tenha o  #orcamento-bikcraft Mais ele precisar está dentro do mesmo elemento  pai por isso os inputs nào estão dentro de div */
