@@ -1,5 +1,5 @@
 /*Padrao para todo o site*/
-@import "./utilitario/cores-e-tipografia.css";
+
 @import "./global/cabecalho.css";
 @import "./global/global.css";
 @import "./global/rodape.css";
